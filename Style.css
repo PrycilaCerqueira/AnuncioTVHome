@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.4;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* h1,
+h2,
+h3,
+p,
+a,
+li,
+figcaption { 
+}
+*/
+section{
+  padding: 2.4rem;
+}
+
+h1 {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+h1::first-letter{
+  font-size: 6.4rem;
+}
+
+h1, figure {
+  margin-bottom: 3.2rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+  line-height: 1.1;
+}
+
+h2, a, ul{
+  margin-bottom: 2.4rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin-bottom: 1.8rem;
+}
+
+p {
+  /* font-size: 18px; */
+  line-height: 1.4;
+}
+
+
+p, li{
+  margin-bottom: 0.6rem;
+}
+
+figcaption {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-left: 3.2rem;
+}
+
+a {
+  color: #c44105;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-decoration: double;
+  text-decoration-line: underline;
+}
+
+a:link, a:visited{
+  color: #c44105;
+}
+
+a:hover, a:active{
+  color: #0588c4;
+}
+
+li {
+  color: #035276;
+  font-style: italic;
+  margin-left: 2.4rem;
+}
+
+/* h1 span {
+  color: #0588c4;
+} */
+
+hr {
+  display: none;
+}
+
+
+.realce-h1 {
+  color: #0588c4;
+  font-size: inherit;
+}
+
+.realce-p,
+p strong {
+  color: #0588c4;
+  font-weight: 700;
+}
+
+.realce-italico {
+  color: #78d4ff;
+  font-style: italic;
+}
+
+.realce-underline {
+  color: #78d4ff;
+  text-decoration: underline;
+}
+
+.condicoes-section div{
+  display:inline-block;
+  background-color: #035276;
+  color: #fff;
+  box-shadow: 0 0 1.6rem 0.4rem black ;
+  padding: 2.4rem 3.2rem;
+  border-radius: 2rem;
+}
+
+.whatsapp-a img{
+  width: 8.5rem;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+
+
+}
+
